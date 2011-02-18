@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1">
+      <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="fill_parent">
+          <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical">
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1" />
+	          <TextView
+	          android:text="Grrbrr404: This is a long long long long long long long long test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	           <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1" />
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	           <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1" />
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	           <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1" />
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	           <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1" />
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	           <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1" />
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>
+	          <TextView
+	          android:text="Grrbrr404: This is a test Message"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"/>        
+          </LinearLayout>
+      </ScrollView>
+            
+  </LinearLayout>
+
+	<TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Type here:"/>
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/label"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry"
+       android:maxHeight="10pt"
+        
+        android:text="Ok" />
+    
+</LinearLayout>
